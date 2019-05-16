@@ -40,10 +40,10 @@ You can improve it by sending pull requests to [this repository](http://fake.org
 We have several examples on the [website](http://fake.org). Here is the first one to get you started:
 
     function HelloMessage({ name }) {
-    return <div>Hello {name}</div>;
+        return <div>Hello {name}</div>;
     }
 
     ReactDOM.render(
-    <HelloMessage name="Taylor" />,
-    document.getElementById('container')
+        <HelloMessage name="Taylor" />,
+        document.getElementById('container')
     );
